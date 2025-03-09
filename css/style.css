@@ -141,6 +141,29 @@ section article table th{
     background-color: #f1e317; /* Establce el color del fondo del encabezado de la tabla*/
 }
 
+label {
+    display: block;
+    margin-bottom: 10px 0 5px;
+    font-weight: bold;
+    padding: auto;
+}
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
 footer{
     background-color: black;
     color: white;
